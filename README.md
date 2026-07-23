@@ -53,7 +53,7 @@ Identified biologically impossible zero values (treated as missing data) in:
 
 | Member | Responsibility | Deliverable |
 |---|---|---|
-| Member 1 | Data pipeline: cleaning, train/test split, manual conjugate NIG Naive Bayes implementation | `data_cleaning.ipynb`, `naive_bayes_conjugate.ipynb` |
+| Patricia Kiarie | Data pipeline: cleaning, train/test split, manual conjugate NIG Naive Bayes implementation | `data_cleaning.ipynb`, `naive_bayes_conjugate.ipynb` |
 | Member 2 | Bayesian logistic regression: prior specification, PyMC model build, MCMC sampling | `bayesian_logistic_regression.ipynb` |
 | Member 3 | Convergence diagnostics on the logistic regression trace (trace plots, R-hat, effective sample size via `arviz`) | `diagnostics.ipynb` |
 | Member 4 | Model comparison (WAIC/LOO between Naive Bayes and logistic regression), posterior predictive checks, prior sensitivity analysis | `model_comparison.ipynb` |
